@@ -1,0 +1,142 @@
+.welc_container {
+    background-image: url("./src/assets/picture/bgmain.png");
+    height: 960px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    /* background-attachment:fixed */
+}
+
+.welc_item {
+    background-image: url("./src/assets/svg/welc_border.svg");
+    height: 752px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-top: 79px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.welc_title {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 29px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.welc_name {
+    font-family: "Lora", sans-serif;
+    font-weight: 500;
+    font-size: 191px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.welc_btn {
+    border: 1.5px solid #fff;
+    border-radius: 3px;
+    padding: 11px 70px;
+    background: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 26px;
+    text-transform: capitalize;
+    color: #fff;
+    cursor: pointer;
+}
+
+.welc_btn:hover {
+    border: 1.5px solid #ffffff;
+    background: #ffffff31;
+    opacity: 0.9;
+    transition-duration: .25s;
+}
+.welc_btn:active {
+    color: #000000;
+    border: 1.5px solid #ffffff;
+    background: #ffffff;
+    opacity: 0.7;
+    transition-duration: .25s;
+}
+
+/* При разрешении экрана шириной менее 480px */
+@media only screen and (max-width: 480px) {
+    .welc_title {
+        font-size: 14px;
+    }
+
+    .welc_name {
+        font-size: 75px;
+    }
+
+    .welc_btn {
+        padding: 7px 40px;
+        font-size: 12px;
+    }
+    .welc_item {
+        margin: -80px 20px;
+    }
+}
+
+/* При разрешении экрана шириной от 480px до 768px */
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+    .welc_title {
+        font-size: 16px;
+    }
+
+    .welc_name {
+        font-size: 85px;
+        padding: 0 20px;
+    }
+
+    .welc_btn {
+        padding: 9px 60px;
+        font-size: 14px;
+    }
+
+    .welc_item {
+        margin: -80px 40px;
+    }
+}
+
+/* При разрешении экрана шириной от 768px до 980px */
+@media only screen and (min-width: 768px) and (max-width: 980px) {
+    .welc_title {
+        font-size: 22px;
+    }
+
+    .welc_name {
+        font-size: 151px;
+    }
+
+    .welc_btn {
+        padding: 9px 65px;
+        font-size: 20px;
+    }
+    .welc_item {
+        margin: 0px 50px;
+    }
+}
+
+/* При разрешении экрана шириной от 980px до 1200px */
+@media only screen and (min-width: 980px) and (max-width: 1200px) {
+    .welc_title {
+        font-size: 26px;
+    }
+
+    .welc_name {
+        font-size: 171px;
+    }
+
+    .welc_btn {
+        padding: 9px 65px;
+        font-size: 22px;
+    }
+    .welc_item {
+        margin: 50px 50px;
+    }
+}

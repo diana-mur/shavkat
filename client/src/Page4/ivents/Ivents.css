@@ -1,0 +1,61 @@
+.card_iv {
+    border: 1.50px solid #ffdec3;
+    border-radius: 20px;
+    width: 1665px;
+    height: 413px;
+}
+
+.card_iv {
+    margin: 1% auto;
+    display: flex;
+    gap: 40px;
+    padding-left: 1%;
+}
+
+.img_iv_card {
+    border-radius: 20px;
+    width: 498px;
+    height: 413px;
+}
+
+.info_iv_title {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 160%;
+    text-transform: capitalize;
+    color: #6c4218;
+}
+
+.info_iv_disc {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 160%;
+    text-transform: capitalize;
+    color: #6c4218;
+}
+
+.iv_min {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 160%;
+    text-transform: capitalize;
+    color: #6c4218;
+}
+
+.info_iv_card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.info_iv_min1 {
+    display: flex;
+    justify-content: space-between;
+}
+.info_iv_min2 {
+    display: flex;
+    justify-content: space-between;
+}

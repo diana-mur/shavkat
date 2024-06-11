@@ -1,0 +1,40 @@
+.card_infp_cont {
+    background-image: url("./src/assets/svg/card_bord.svg");
+    height: 332px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+.card_infp_cont img {
+    height: 30px;
+
+}
+
+.card_title {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 160%;
+    text-transform: capitalize;
+    color: #6c4218;
+}
+
+.card_disc {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 23px;
+    line-height: 160%;
+    text-transform: capitalize;
+    color: #6c4218;
+    width: 319px;
+}
+
+.card_info_item {
+    padding: 42px 77px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+}

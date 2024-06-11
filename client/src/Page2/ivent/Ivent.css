@@ -1,0 +1,10 @@
+.ivent_item{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+}
+
+.ivent_cont {
+    margin: 3%;
+}

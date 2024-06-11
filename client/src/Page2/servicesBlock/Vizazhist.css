@@ -1,0 +1,69 @@
+.viz_cont {
+    display: flex;
+    align-items: center;
+    margin: 4% 0;
+    flex-direction: column;
+}
+
+.viz_swiper {
+    margin-top: 2%;
+    border: 1.50px solid #6c4218;
+    width: 1627px;
+    height: 758px;
+    display: flex;
+    flex-direction: column;
+
+
+    overflow: auto;
+
+}
+
+
+
+.card_viz_title {
+    font-family: "Lora", sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+}
+
+.viz_titl{
+    text-align: center;
+    margin: 3% 0;
+}
+.card_viz_price {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.viz_swiper_item {
+    margin: 2% 1%;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    overflow-x: scroll;
+    flex-shrink: 0;
+    /* display: inline-block; */
+}
+
+.viz_swiper_item::-webkit-scrollbar {
+    display: none;
+}
+.card_viz {
+    height: 444px;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card_viz_title {
+    width: 444px;
+}

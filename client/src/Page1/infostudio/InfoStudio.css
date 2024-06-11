@@ -1,0 +1,9 @@
+.info_cont {
+    display: flex;
+    gap: 87px;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* margin: 3% 0; */
+    padding: 5% 0;
+    background: #f9dcc4;;
+}

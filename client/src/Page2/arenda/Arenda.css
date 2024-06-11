@@ -1,0 +1,62 @@
+.arenda_cont {
+    margin: 2% 0;
+}
+
+.txt_center{
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+.location_item {
+    width: 801px;
+    height: 535px;
+    /* background: rgba(0, 0, 0, 0.5); */
+}
+
+.location_arenda {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.loc_name {
+    font-family: "Lora", sans-serif;
+    font-weight: 400;
+    font-size: 35px;
+    text-transform: uppercase;
+    color: #fff;
+transition: all .7s;
+
+}
+
+.loc_price {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    text-transform: uppercase;
+    color: #fff;
+transition: all .7s;
+
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transition: all 1s;
+}
+
+.overlay:hover {
+    background: rgba(0, 0, 0, 0.0);
+    transition: all 1s;
+}
+
+.overlay:hover > p {
+opacity: 0;
+transition: all .7s;
+}

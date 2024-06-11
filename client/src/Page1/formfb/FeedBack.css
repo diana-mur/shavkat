@@ -1,0 +1,87 @@
+.fb_cont {
+    background: #ffdec3;
+    padding: 5% 0;
+}
+
+.fb_item {
+    margin: 0 auto;
+    border: 1px solid #6c4218;
+    width: 90vw;
+    height: 80vh;
+}
+
+.fb_txt {
+    width: 50%;
+    line-height: 103%;
+    text-transform: none;
+}
+
+.input_fb {
+    border: 1px solid #6c4218;
+    border-radius: 50px;
+    width: 80%;
+    background: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 26px;
+    text-transform: capitalize;
+    padding: 2.2% 2%;
+    color: #6c4218;
+}
+
+.polsogl {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #6c4218;
+    width: 700px;
+    span{
+        font-weight: 700;
+text-decoration-skip-ink: none;
+    }
+    a{
+        color: #6c4218;
+    }
+}
+
+.btn_fb {
+    border-radius: 100%;
+    background: #6c4218;
+    padding: 3%;
+    position: absolute;
+    margin: .7% 10% 0 0;
+    right: 11%;
+    cursor: pointer;;
+}
+
+.fb_img {
+    width: 34%;
+/* height: 90%; */
+    object-fit:cover;
+}
+
+.fb_item {
+    display: flex;
+    padding: 3% 5%;
+    align-items: center;
+    
+}
+
+.fb_el {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    
+}
+
+.fb_form_el {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+
+.btn_in_{
+    position: relative;
+    display: inline-block;
+}

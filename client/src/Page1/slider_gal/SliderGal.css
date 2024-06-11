@@ -1,0 +1,17 @@
+.sliderGal-wrapper {
+    margin: 2% 1%;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    overflow-x: scroll;
+}
+
+.sliderGal-wrapper::-webkit-scrollbar {
+    display: none;
+}
+
+.sliderGal-item img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
